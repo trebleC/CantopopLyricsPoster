@@ -1,0 +1,15 @@
+{
+  "pages": [
+    "pages/activity_list/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "useExtendedLib":{
+    "weui": true
+  },
+  "sitemapLocation": "sitemap.json"
+}

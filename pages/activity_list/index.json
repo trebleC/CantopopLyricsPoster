@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "SearchBar": "/components/searchBox/index",
+    "mp-searchbar": "weui-miniprogram/searchbar/searchbar"
+  },
+  "navigationBarTitleText": "活动管理"
+}

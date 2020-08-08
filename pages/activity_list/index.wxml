@@ -1,0 +1,22 @@
+<view class="container">
+    <view wx:if="{{searchBar}}" class="page__bd">
+        <mp-searchbar bindselectresult="selectResult" search="{{search}}"></mp-searchbar>
+    </view>
+    <scroll-view wx:else class="page__bd" scroll-y="{{true}}">
+        <view  wx:for="{{oLRC.ms}}">
+            <image class="check-icon" 
+             bindtap="onSelect" 
+             src="{{selectIndex[index].sureid? hasSelect : noSelect}}"
+             data-selectIndex="{{index}}"></image> 
+            <text class="lyric_txt">{{item.c}}</text>
+        </view>
+    </scroll-view>
+    <view wx:if="{{oLRC.ms}}" class="btn_enter" bindtap="onEnterSelect">
+    <text >确认</text>
+    </view>
+</view>
+
+
+
+
+
